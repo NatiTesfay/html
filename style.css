@@ -1,0 +1,343 @@
+@keyframes anime{
+from{
+    background-color:blue;
+}
+to{
+background-color: green;
+}
+}
+
+#img{
+    background-color: blue;
+    border:  blue;
+    height: 200px;
+    width: 200px;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mix{
+    5%{
+        background-color: blue;
+    }
+    25%{
+        background-color: green;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+
+
+#img1{
+    background-color: blue;
+    border:  blue;
+    height: 200px;
+    width: 200px;
+    animation-name: mix;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes imgluffy{
+    from{
+        filter: opacity(1);
+    }
+    to{
+        filter: opacity(0);
+    }
+}
+    #luffy{
+            width: 100px;
+            height: 100px;
+            animation-duration: 5s;
+            animation-name: imgluffy;
+            animation-iteration-count: infinite;
+    }
+
+
+
+    @keyframes homie{
+        form{
+            filter:sepia(0);
+        }
+        to{
+            filter: sepia(1);
+        }
+    }
+
+
+
+    #old{
+        width: 100px;
+        height: 100px;
+        animation-duration: 5s;
+        animation-name: homie;
+        animation-iteration-count: infinite;
+    }
+
+
+
+    @keyframes move1{
+        from{
+            background-color: orange ; margin-right: 5vw;
+        }
+        to{
+            background-color: pink; margin-left: 5vw;
+        }
+    }
+
+
+    #move{
+        background-color: orange;
+        border:  blue;
+        height: 200px;
+        width: 200px;
+        animation-name: move1;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        
+    }
+
+
+    @keyframes red1{
+            5%{
+                background-color:red; margin-top: 5vh;
+            }
+            25%{
+                background-color: green;
+            }
+            75%{
+                background-color: yellow;
+            }
+            100%{
+                background-color: skyblue; margin-bottom: 5vh;
+            }
+    }
+
+
+
+    #red{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        animation-name: red1;
+        animation-duration: 5s;  
+        animation-iteration-count: infinite;
+    }
+
+
+    @keyframes will{
+        
+        from{ filter: drop-shadow(3px 3px 3px black);
+        }
+        to{ filter: drop-shadow(3px 3px 3px yellow) blur(1px);
+
+        }
+    }
+
+   
+    #pic2{
+        height: 100%;
+        width: 100%;
+        animation-name: will;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+
+    
+    @keyframes wil{
+        from{ filter: blur(5px);}
+        to{filter: blur(0);}
+    }
+
+
+    #chair{
+        height: 100%;
+        width: 50%;
+        animation-name: wil;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+    }
+
+
+  
+
+    
+
+    #main{
+        animation-name: aren;
+        width: 100px;
+        height: 100px;
+        animation-duration: 4s;
+        transition: all;
+        transition-duration: 4s;
+        transition-timing-function:ease-in;
+        box-shadow: 5px 5px 5px black;
+        animation-iteration-count: infinite;
+    }
+     #main:hover{
+         width: 200px;
+         height: 200px;
+         filter: contrast(2);
+         filter: drop-shadow(4px 4px 4px yellow );
+         box-shadow: 5px 5px 5px gray;
+         
+     }
+
+     @keyframes big1{
+         from{
+         width: 30px;
+         }
+         to{
+         width: 100px;
+         }
+     }
+
+     #big{
+         height: 70px;
+         width: 30px;
+         background-color: black;
+         animation-name: big1;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+         
+     }
+
+
+
+     
+     @keyframes new1{
+       0%{
+        width: 30px;
+       }
+       25%{width: 70px;
+
+       }
+       50%{width: 30px;
+
+       }
+
+    100%{width: 200px;
+
+    }
+    }
+
+     
+  
+     #new{
+         background-color: black;
+         width: 10px;
+         height: 100px;
+         animation-name: new1;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+     }
+
+
+
+     @keyframes inu{
+         from{filter: brightness(10%);
+             
+         }
+         to{ filter: brightness(100%);
+
+         }
+
+        
+     }
+     #i{
+         height: 100px;
+         width: 100px;
+         animation-name: inu;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+
+     }
+
+
+
+   @keyframes lik{
+    from {width: 50px; height: 50px;
+   }
+   to {
+       width: 300px; height: 300px;
+   }
+}
+
+     #like{
+         height: 50px;
+         width: 50px;
+        animation: lik 5s infinite;
+     }
+
+
+
+     @keyframes kat2{
+        0% {filter:saturate(0)}
+        25% {filter: saturate(3);}
+        50%{filter:sepia(1);}
+        100%{filter: sepia(0);}
+       
+
+     }
+
+     #kat
+     {
+         height: 100px;
+         height: 100px;
+         animation-name: kat2;
+         animation-duration: 10s;
+         animation-iteration-count: infinite;
+        
+     }
+
+    @keyframes bob1{
+     0%{width: 100px; height: 100px; margin-right: 5vw;}
+     50%{ width: 300px; height: 300px; margin-left: 5vw;}
+     100%{width: 100px; height: 100px; margin-right: 5vw;}
+    }
+
+     #bob{ 
+         background-color: blueviolet;
+         width: 100px;
+         height: 100px;
+         animation-name:bob1;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+     }
+
+
+     @keyframes cir{
+         5%{width: 200px; height: 200px; border-radius: 150px; margin-top: 5vh;}
+         25%{width: 100px; height: 100px; border-radius: 80px;margin-bottom: 5vh;}
+         50%{width: 50px; height: 50px; border-radius: 30px; margin-top: 5vh;}
+         100%{width: 100px; height: 100px; border-radius: 80px;margin-bottom: 5vh;}
+        
+
+     }
+
+
+     #circle{
+         background-color: brown;
+         width: 80px;
+         height: 80px;
+         
+         animation-name:cir;
+         animation-duration: 10s;
+         animation-iteration-count: infinite;
+     }
+ 
+
+
+
+    
+    
